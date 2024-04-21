@@ -118,7 +118,7 @@ class MemoryCardsBoard extends LitElement {
   handleClick(event) {
     if (this.hideNumbers && !this.clicked) {
       this.clicked = true;
-      const clickedCell = parseInt(event.target, 10);
+      const clickedCell = event.target;
       const numberClicked = parseInt(clickedCell.dataset.number, 10);
       clickedCell.innerText = numberClicked;
       if (this.number === numberClicked) {
