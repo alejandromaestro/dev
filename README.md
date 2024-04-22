@@ -24,8 +24,21 @@ Este juego está creado utilizando las siguientes tecnologías:
 - HTML5
 - CSS3
 
-## Cómo Ejecutar
+## Instalación
 
-1. Clona este repositorio en tu máquina local.
-2. Abre el archivo `index.html` en tu navegador web favorito.
-3. ¡Disfruta del juego!
+Para instalar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
+
+1. Clona este repositorio en tu máquina local utilizando Git:
+  git clone https://github.com/tu_usuario/tu_repositorio.git
+
+2. Accede al directorio del proyecto:
+   cd nombre_del_directorio
+
+3. Instala las dependencias del proyecto utilizando npm:
+   npm install
+
+4. Ahora puedes iniciar la aplicación localmente:
+   npm start
+   
+6. Abre tu navegador web y navega a [http://localhost:3000](http://localhost:3000) para ver la aplicación en funcionamiento.
+
